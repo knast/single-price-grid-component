@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+
+
+
+body {
+  font-size:16px;
+  background-color:hsl(204, 43%, 93%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  height:100vh;
+  overflow:hidden;
+  font-family:'Karla', sans-serif;
+  font-size:16px;
+}
+
+.main {
+  display:grid;
+  flex-direction:column;
+  max-width:800px;
+  max-height:800px;
+  min-height:500px;
+  grid-template-rows:repeat(2,1fr);
+  
+}
+
+.client-info {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+}
+
+.ad-wrapper {
+  background-color:white;
+  padding:50px;
+}
+
+.ad-wrapper > h1, .ad-wrapper > h3 {
+  font-weight:700;
+}
+
+.ad-wrapper > h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.ad-wrapper > h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.ad-wrapper > p {
+  font-size:18px;
+  color: hsl(203, 7%, 62%);
+}
+
+.monthly-sub {
+  background-color:hsl(179, 62%, 43%);
+}
+
+.why-us {
+  background-color: hsl(179, 39%, 52%);
+}
