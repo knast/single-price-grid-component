@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
 
-html {
-  margin:0;
-  padding:0;
-}
-
 
 body {
   font-size:16px;
@@ -104,7 +99,18 @@ body {
 
 .why-us {
   background-color: hsl(179, 39%, 52%);
+  padding-left:40px;
+  padding-top: 5px;
+  text-align:left;
+  
+  
 }
+
+.wrapper {
+  width:65%;
+}
+
+
 
 .price-tag {
   display:flex;
@@ -120,4 +126,14 @@ body {
 
 .price-tag > p { 
   color: hsl(214, 18%, 83%);
+}
+
+.header {
+  font-size:23px;
+  font-weight:700;
+}
+
+.why-us-desc {
+  line-height:28px;
+  
 }
