@@ -1,7 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
 
-
+html {
+  margin:0;
+  padding:0;
+}
 
 
 body {
@@ -24,12 +27,16 @@ body {
   max-height:800px;
   min-height:500px;
   grid-template-rows:repeat(2,1fr);
+  border-radius:9px;
+  border-collapse:collapse;
+  overflow:hidden;
   
 }
 
 .client-info {
   display:grid;
   grid-template-columns:repeat(2,1fr);
+  color:white;
 }
 
 .ad-wrapper {
@@ -56,8 +63,61 @@ body {
 
 .monthly-sub {
   background-color:hsl(179, 62%, 43%);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
+
+.sub-text {
+  width:70%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  
+  
+}
+
+.price-description {
+  font-size:18px;
+}
+
+.sign-up {
+  display:block;
+  width:70%;
+  height:60px;
+  font-family:inherit;
+  font-size:16px;
+  background-color:hsl(71, 73%, 54%);
+  border:none;
+  border-radius:6px;
+  font-size:18px;
+  font-weight:700;
+  color:inherit;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.sub-text > h2 {
+  margin-top:0px;
 }
 
 .why-us {
   background-color: hsl(179, 39%, 52%);
+}
+
+.price-tag {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  height:30px;
+}
+
+.price-tag > h1 {
+  margin-right:15px;
+  font-size:40px;
+}
+
+.price-tag > p { 
+  color: hsl(214, 18%, 83%);
 }
